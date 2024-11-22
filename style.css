@@ -1,0 +1,177 @@
+.main{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+.stats{
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    align-items:top;
+    justify-content:center;
+}
+.text{
+    /* background-color: aliceblue;  Background color behind the text */
+    display: inline-block;        /* Makes the background fit tightly around the text */
+    color:white;                  /* Text color */
+    padding: 5px 10px;            /* Optional: Adds space around the text */
+    border-radius: 5px;           /* Optional: Rounded corners for the background */
+    font-family: fantasy;
+    font-size: 2rem;
+
+}
+
+.nav{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgb(0, 0, 0,0.10);
+    border-bottom-left-radius: 10px;
+    
+
+}
+.nav .link a {
+    margin-right: 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.button{
+    background-color: grey;
+    padding: 10px 20px;
+    border: none;
+    border-radius:25px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color:#c5c6d0 ;
+}
+.banner{
+    background-color:white;
+    width:100%;
+    height: 200px;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;
+    
+    
+}
+.bannertext img{
+    width:10vw;
+    margin-right: 0;
+}
+
+.footer{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.footer a{
+    margin:20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.text{
+    display:inline-block;
+}
+
+.tumor{
+    padding-right: 70px;
+}
+.servicecard{
+    background-color: grey;
+    color:white;
+    height: 80vh;
+    width: 100%;
+}
+.cardbg1,
+.cardbg2,
+.cardbg3,
+.cardbg4{
+    height:150px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+}
+.servicecard .cardone
+.servicecard .cardtwo
+.servicecard .cardthree
+.servicecard .cardfour{
+    width:150px;
+    position:absolute;
+    top:-10px;
+    right: -50px;
+    border-radius: 25px;
+}
+.cardcontent {
+    padding: 0 20px;
+}
+
+.cardcontent .cardbtn {
+    position: absolute;
+    right: 20px;
+    background-color: #1b94e0;
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+}
+
+.cardcontent .cardbtn:hover {
+    background-color:wheat;
+}
+
+.servicecard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+    
+}
+
+
+
+.lungupload{
+    
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
